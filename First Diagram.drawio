@@ -1,5 +1,5 @@
-<mxfile host="app.diagrams.net" modified="2023-10-03T00:01:22.121Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="rDg7RKxqMdFkVjjL_o2L" version="22.0.0" type="github" pages="2">
-  <diagram name="Page-1" id="gl7itzXOc_nNFnvp_Sqy">
+<mxfile host="app.diagrams.net" modified="2023-10-03T00:05:41.118Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="IW-h66LuDR24aroT3epW" version="22.0.0" type="github" pages="2">
+  <diagram name="AS-IS" id="gl7itzXOc_nNFnvp_Sqy">
     <mxGraphModel dx="783" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -81,8 +81,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="IE_kSgPMm72Gc0L-t1Ub" name="Página-2">
-    <mxGraphModel dx="783" dy="1717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="IE_kSgPMm72Gc0L-t1Ub" name="SHOULD-BE">
+    <mxGraphModel dx="1434" dy="1996" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -92,7 +92,7 @@
         <mxCell id="2LB-bpgk250uVgHDnm_F-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="60" width="380" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="2LB-bpgk250uVgHDnm_F-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="2LB-bpgk250uVgHDnm_F-1" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#CCCCCC;" vertex="1" parent="1">
           <mxGeometry x="130" y="100" width="300" height="320" as="geometry" />
         </mxCell>
         <mxCell id="2LB-bpgk250uVgHDnm_F-4" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/compute/Virtual_Machine.svg;" vertex="1" parent="1">
@@ -128,13 +128,13 @@
         <mxCell id="2LB-bpgk250uVgHDnm_F-14" value="10.10.0.24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="156.75" y="390" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LB-bpgk250uVgHDnm_F-15" value="SUB-PRD01" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="84.5" y="420" width="75.5" height="30" as="geometry" />
+        <mxCell id="2LB-bpgk250uVgHDnm_F-15" value="VNET-PRD01" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="84.5" y="420" width="85.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2LB-bpgk250uVgHDnm_F-16" value="10.10.0.0/16" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="92.25" y="440" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2LB-bpgk250uVgHDnm_F-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=solid;fillColor=#1A1A1A;" vertex="1" parent="1">
+        <mxCell id="2LB-bpgk250uVgHDnm_F-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillStyle=auto;fillColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="400" y="210" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2LB-bpgk250uVgHDnm_F-18" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/management_governance/Application_Insights.svg;" vertex="1" parent="1">
@@ -188,6 +188,9 @@
         </mxCell>
         <mxCell id="2LB-bpgk250uVgHDnm_F-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.453;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="2LB-bpgk250uVgHDnm_F-41" target="2LB-bpgk250uVgHDnm_F-32">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9WzdB3ZIbxlqmeUPdUH-1" value="RG_TFTEC" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="10" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
